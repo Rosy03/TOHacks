@@ -1,0 +1,31 @@
+*
+{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+body
+{
+	background-image: url("COVIDtrack.png");
+	background: rgba(0,0,0,alpha);
+	background-size: cover;
+	background-position: center center;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	
+	font-family: sans-serif;
+	div.transbox{
+	margin: 30px;
+	background-color:#ffffff;
+	border:1px solid black;
+	div.transbox p{
+		margin:5%;
+		font-weight:bold;
+		color:blue;
+	}
+	
+	
+	}
+	
+}
+

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>New Registrations</title>
+        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="col-md-7 register-right">
+            <h2>Register Here</h2>
+            <div class="register-form">
+                <div class="form-group">
+                <p>First Name
+                <input type="text" class="form-control" placeholder="Patient's First Name">
+                </p>
+                </div>
+                <div class="form-group">
+                <p>Last Name
+                <input type="text" class="form-control" placeholder="Patient's Last Name">
+                </p>
+                </div>
+                <div class="form-group">
+                <p>Age
+                <input type="date" class="form-control" placeholder="Age">
+                </p>
+                </div>
+                <div class="form-group">
+                <p>Gender <br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+                <input type="radio" id="notwilling" name="gender" value="notwilling">
+                <label for="notwilling">Prefer Not To Disclose</label>
+                </p>
+                </div>
+                <div class="form-group">
+                <p>Blood Group
+                <select>
+                    <option>A+</option>
+                    <option>A-</option>
+                    <option>A Unknown</option>
+                    <option>B+</option>
+                    <option>B-</option>
+                    <option>B Unknown</option>
+                    <option>AB+</option>
+                    <option>AB-</option>
+                    <option>AB Unknown</option>
+                    <option>O+</option>
+                    <option>O-</option>
+                    <option>O Unknown</option>
+                    <option>Unknown</option>
+                </select>
+                </p>
+                </div>
+                <div class="form-group">
+                <p>Address
+                <input type="text" class="form-control" placeholder="Patient Address">
+                </p>
+                </div>
+                <div class="form-group">
+                <p>Mobile No (If applicable)
+                <input type="tel" id="phone" name="phone" class="form-control" placeholder="12-3456789012" pattern="[0-9]{2}-[0-9]{10}">
+                <small>Format: 12-3456789012</small>
+                </p>
+                </div>
+                <div class="form-group">
+                <p>Email Id (If applicable)
+                <input type="email" class="form-control" placeholder="Email ID">
+                <small>Format: local-part@domain</small>
+                </p>
+                </div>
+                <div class="form-group">
+                <p>Preferable Consultant
+                <input type="text" class="form-control" placeholder="Preferable Consultant">
+                </p>
+                </div>
+                <div class="form-group">
+                <p>Do you have any following flu-like symptoms in the last 14 days<br> 
+                <input type="checkbox" id="symptom1" name="symptom1" value="Fever">
+                <label for="symptom1">Fever</label>
+                <input type="checkbox" id="symptom2" name="symptom2" value="Cough">
+                <label for="symptom2">Cough</label>
+                <input type="checkbox" id="symptom3" name="symptom3" value="Breathlessness">
+                <label for="symptom3">Breathlessness</label>
+                <input type="checkbox" id="symptom4" name="symptom4" value="Sore throat">
+                <label for="symptom4">Sore throat</label>
+                <input type="checkbox" id="symptom5" name="symptom5" value="Runny Nose">
+                <label for="symptom5">Runny Nose</label>
+                <input type="checkbox" id="symptom6" name="symptom6" value="Body ache">
+                <label for="symptom6">Body ache</label><br>
+                <div class="form-group">
+                <p>Others- Please Specify
+                <input type="text" class="form-control" placeholder="Other Symptoms"> 
+                </p>
+                </div>
+                <div class="form-group">
+                <p>Body Temperature
+                <input type="number" class="form-control" placeholder="Body Temperature">
+                </p>
+                </div>
+                <div class="form-group">
+                <p>Do you have been in close contact with a confirmed case of the COVID-19 patient<br> 
+                <input type="checkbox" id="affirmation1" name="affirmation1" value="yes">
+                <label for="affirmation1">Yes</label>
+                <input type="checkbox" id="negation1" name="negation1" value="no">
+                <label for="negation1">No</label>
+                </p>
+                </div>
+                <div class="form-group">
+                <p>Do you have been in close contact with persons suffering from COVID-19 patient<br> 
+                <input type="checkbox" id="affirmation2" name="affirmation2" value="yes">
+                <label for="affirmation2">Yes</label>
+                <input type="checkbox" id="negation2" name="negation2" value="no">
+                <label for="negation2">No</label>
+                </p>
+                </div>
+                <div class="form-group">
+                <p>Do you have taken COVID-19 vaccine<br> 
+                <input type="checkbox" id="affirmation3" name="affirmation3" value="yes">
+                <label for="affirmation3">Yes</label>
+                <input type="checkbox" id="negation3" name="negation3" value="no">
+                <label for="negation3">No</label>
+                </p>
+                </div>
+                <div class="form-group">
+                <p>Travel history for the last 14 days (Please mention City's name/ Country's name)
+                <input type="text" class="form-control" placeholder="Recent Traveled Place">
+                </p>
+                </div>
+                <div class="form-group">
+                <p>Past Medical History
+                <input type="text" class="form-control" placeholder="Existed Diseases">
+                </p>
+                </div>
+                <button type="button" class="btn btn-primary">Register</button>
+            </div>
+        </div>
+    </body>
+</html>

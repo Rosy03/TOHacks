@@ -1,0 +1,32 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+.box{
+	height: 100vh;
+	
+}
+.transbox{
+	max-width:950px;
+	position:relative;
+	display:block;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	background: rgba(255,255,255,0.5);
+	box-shadow:0 15px 20px rgba(0,0,0,0.2);
+	padding:30px;
+	text-align:center;
+	letter-spacing:2px;
+	
+	
+}
+.transbox h1 {
+	font-size: 45px;
+	font-weight:relative;
+}
+.transbox p{
+	margin:10px;
+	font-size: 18px;
+}
